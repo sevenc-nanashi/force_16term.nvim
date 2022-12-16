@@ -1,4 +1,4 @@
-function! force_16term#change_color(background = "auto", fax = "1.2") abort
+function! g:force_16term#change_color(background = "auto", fax = "1.2") abort
   let l:background = a:background == "auto" ? &background : a:background
   let l:fax = str2float(get(a:, 1, "1.2"))
 

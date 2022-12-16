@@ -69,6 +69,8 @@ following values:
 	"auto"		: automatically detect background color
 
 {fax} is a factor to adjust colors.  Default is {1.2}.
+			*force_16term#change_color*
+Can be also used as {call force_16term#change_color(background, fax)}. *
 
 ==============================================================================
 TODO						*force_16term-todo*

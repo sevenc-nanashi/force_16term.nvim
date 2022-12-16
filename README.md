@@ -25,11 +25,15 @@ Force16Term
 Forces 16-colored terminal in any colorscheme.
 
 `{background}` is a background color of terminal.  It must be one of the following values:
-	"dark"		: dark background
-	"light"		: light background
-	"auto"		: automatically detect background color
+| Value | Description |
+| - | - |
+| "dark" | dark background |
+| "light" | light background |
+| "auto" |automatically detect background color from `&background` |
 
 `{fax}` is a factor to adjust colors.  Default is `1.2`.
+
+Can be also used by `call force_16term#change_color(background, fax)`
 
 ## License
 
